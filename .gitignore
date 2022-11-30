@@ -1,0 +1,24 @@
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+coverage
+node_modules/
+jspm_packages/
+
+# Camunda Distro
+.run-camunda
+production.yml
+
+# Camunda Baker CLI Bundles
+public
+dist
+
+# Env files
+# ATTENTION! uncomment the line below to avoid send .env files to git
+# .env*

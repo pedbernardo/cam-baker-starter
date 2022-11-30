@@ -1,0 +1,40 @@
+{
+  "name": "cam-baker-starter",
+  "version": "1.0.0",
+  "description": "Non official Camunda Tasklist project boilerplate using Camunda Baker CLI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev:camunda && npm run dev:forms",
+    "dev:camunda": "cross-env CAMUNDA_VERSION=7.18 node ./scripts/start-camunda.js",
+    "dev:forms": "baker",
+    "build": "cross-env NODE_ENV=production baker build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedbernardo/cam-baker-starter.git"
+  },
+  "keywords": [
+    "camunda",
+    "tasklist",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Pedro Bernardo <pedrovbernardo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedbernardo/cam-baker-starter/issues"
+  },
+  "homepage": "https://github.com/pedbernardo/cam-baker-starter#readme",
+  "devDependencies": {
+    "cam-baker": "^0.4.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "fs-extra": "^11.1.0",
+    "run-camunda": "^7.0.0"
+  }
+}

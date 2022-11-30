@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "bpmn-io.vs-code-bpmn-io",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "mikestead.dotenv",
+    "syler.sass-indented"
+  ]
+}
